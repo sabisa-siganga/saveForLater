@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background: #38414a;
+    border-bottom: solid 5px #e84b1b;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: flex-end;
+    column-gap: 17px;
+    margin-bottom: 0;
+    padding: 10px 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #e84b1b;
+    border-color: #e84b1b;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.saved-contents-container {
+    max-width: 384px;
+}
+
+.saved-contents {
+    margin-bottom: 30px;
+}
+
+.content-container {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-area {
+    padding-top: 16px;
+}
+
+.saved-contents:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+}
+
+.saved-contents a {
+    text-decoration: none;
+    color: #0d6efd;
+
+}
+
+.icons {
+    display: flex;
+    column-gap: 15px;
+}
+
+.contact-container {
+    max-width: 500px;
+    background: #fbfbfb;
+    padding-bottom: 1px;
+    box-shadow: 1px 1px 36px #0000007a;
+
+}
+
+.contact-container p {
+    font-size: 16px;
+}
+
+.contact-container label {
+    font-size: 15px;
+}
+
+.btn-color {
+    color: red;
+}
+
+.ul {
+    padding-top: 10px;
+    padding-left: 20px;
+    list-style-type: circle;
+}
+
+.ul li:not(:last-child) {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.material-symbols-outlined {
+    position: relative;
+    cursor: pointer;
+}
+
+.comment-count {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #e84b1b;
+    border-radius: 50%;
+    height: 21px;
+    display: inline-flex;
+    width: 21px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -13px;
+    right: -8px;
+}
